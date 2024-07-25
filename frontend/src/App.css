@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+.customfont {
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 28px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #F10C49;
+  animation: l9 2s infinite;
+}
+
+@keyframes l9 {
+  0% {
+    box-shadow:
+      0 -16px #F4DD51, calc(16px*0.707) calc(-16px*0.707) #E3AAD6, 0 0 #F4DD51, 0 0 #E3AAD6,
+      0 0 #F4DD51, 0 0 #E3AAD6, 0 0 #F4DD51, 0 0 #E3AAD6
+  }
+
+  12.5% {
+    box-shadow:
+      0 0 #F4DD51, calc(16px*0.707) calc(-16px*0.707) #E3AAD6, 16px 0 #F4DD51, 0 0 #E3AAD6,
+      0 0 #F4DD51, 0 0 #E3AAD6, 0 0 #F4DD51, 0 0 #E3AAD6
+  }
+
+  25% {
+    box-shadow:
+      0 0 #F4DD51, 0 0 #E3AAD6, 16px 0 #F4DD51, calc(16px*0.707) calc(16px*0.707) #E3AAD6,
+      0 0 #F4DD51, 0 0 #E3AAD6, 0 0 #F4DD51, 0 0 #E3AAD6
+  }
+
+  37.5% {
+    box-shadow:
+      0 0 #F4DD51, 0 0 #E3AAD6, 0 0 #F4DD51, calc(16px*0.707) calc(16px*0.707) #E3AAD6,
+      0 16px #F4DD51, 0 0 #E3AAD6, 0 0 #F4DD51, 0 0 #E3AAD6
+  }
+
+  50% {
+    box-shadow:
+      0 0 #F4DD51, 0 0 #E3AAD6, 0 0 #F4DD51, 0 0 #E3AAD6,
+      0 16px #F4DD51, calc(-16px*0.707) calc(16px*0.707) #E3AAD6, 0 0 #F4DD51, 0 0 #E3AAD6
+  }
+
+  62.5% {
+    box-shadow:
+      0 0 #F4DD51, 0 0 #E3AAD6, 0 0 #F4DD51, 0 0 #E3AAD6,
+      0 0 #F4DD51, calc(-16px*0.707) calc(16px*0.707) #E3AAD6, -16px 0 #F4DD51, 0 0 #E3AAD6
+  }
+
+  75% {
+    box-shadow:
+      0 0 #F4DD51, 0 0 #E3AAD6, 0 0 #F4DD51, 0 0 #E3AAD6,
+      0 0 #F4DD51, 0 0 #E3AAD6, -16px 0 #F4DD51, calc(-16px*0.707) calc(-16px*0.707) #E3AAD6
+  }
+
+  87.5% {
+    box-shadow:
+      0 -16px #F4DD51, 0 0 #E3AAD6, 0 0 #F4DD51, 0 0 #E3AAD6,
+      0 0 #F4DD51, 0 0 #E3AAD6, 0 0 #F4DD51, calc(-16px*0.707) calc(-16px*0.707) #E3AAD6
+  }
+
+  100% {
+    box-shadow:
+      0 -16px #F4DD51, calc(16px*0.707) calc(-16px*0.707) #E3AAD6, 0 0 #F4DD51, 0 0 #E3AAD6,
+      0 0 #F4DD51, 0 0 #E3AAD6, 0 0 #F4DD51, 0 0 #E3AAD6
+  }
+}
